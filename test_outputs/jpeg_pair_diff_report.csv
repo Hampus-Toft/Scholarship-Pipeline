@@ -1,0 +1,103 @@
+sample_id,field,status,expected,actual
+scenario_2_jpeg_pair,account,mismatch,(6407) 794 187 072,' Kontonummer (clearinonummer in
+scenario_2_jpeg_pair,bank,mismatch,Handelsbanken,"l ädr inrd trda A AA A00 0 ,0 070101070"" 01010 0 -0 .00 0 0 00"
+scenario_2_jpeg_pair,birth_place,mismatch,"Lundby, Västerås",LUR MESTES o osson so0 6sd eser oRr e r E E a SA A S S Rr 0 b aldopaaasaocnosnboo
+scenario_2_jpeg_pair,credits_capped,missing_field,10,
+scenario_2_jpeg_pair,credits_high,missing_field,132.5,
+scenario_2_jpeg_pair,credits_high_level,missing_field,0,
+scenario_2_jpeg_pair,credits_total,missing_field,172.5,
+scenario_2_jpeg_pair,csn_remain,mismatch,80,are ...80
+scenario_2_jpeg_pair,email,mismatch,Hampus.Toft@gmail.com,..Hampus. foft QgmailicOoM ..c E-postadress:
+scenario_2_jpeg_pair,external_credits_capped,missing_field,0,
+scenario_2_jpeg_pair,external_credits_high,missing_field,0,
+scenario_2_jpeg_pair,external_credits_high_level,missing_field,0,
+scenario_2_jpeg_pair,external_credits_total,missing_field,0,
+scenario_2_jpeg_pair,extra_curricular,mismatch,Ämbete på Nation (Stip ledamot) Tidigare kår delaktig 1 år,"Ämbe.te.p.å.Nati.on.(Stip.LedamQt).._.....,........................................,................ IIId Gareikår delaktigels årssope. c sead n krad åe"
+scenario_2_jpeg_pair,field,mismatch,Kandidat Datavetenskap,Kand—dirndn
+scenario_2_jpeg_pair,gh_joined_ht,mismatch,HT,atior
+scenario_2_jpeg_pair,gh_joined_vt,mismatch,VT,r vi
+scenario_2_jpeg_pair,gh_joined_year,mismatch,2023,I| Uppsala univers
+scenario_2_jpeg_pair,highschool,mismatch,Bollnäs,otahiterna måcte det ctuvurkas)
+scenario_2_jpeg_pair,hs_day,missing_field,05,
+scenario_2_jpeg_pair,hs_month,missing_field,06,
+scenario_2_jpeg_pair,hs_year,missing_field,2020,
+scenario_2_jpeg_pair,is_citizen,missing_field,Ja,
+scenario_2_jpeg_pair,is_not_citizen,missing_field,Nej,
+scenario_2_jpeg_pair,name,mismatch,Hampus Toft,TD N LÄTMP II SPTOS SEE EE S R SA e AN sea
+scenario_2_jpeg_pair,nation_membership,mismatch,Gästrike Hälsinge Nation Norrlands Nation,Naqutermda NeMa 0000 sss0rb orr BsssoeRE RÖE RNRA RRRA EÖERSNPEE IEER E0009050 EVS studieperiodervidandrauniversitet/högskolor............................................................
+scenario_2_jpeg_pair,page_2_name,mismatch,Hampus Toft,0000 IIIORUL IBTFIOTYLYFININNVNINSNSGNYINE l Namnförtydligande
+scenario_2_jpeg_pair,page_count,match,2,2
+scenario_2_jpeg_pair,period_ht,mismatch,HT,letta
+scenario_2_jpeg_pair,period_is_ht,mismatch,HT,UJ
+scenario_2_jpeg_pair,period_is_vt,mismatch,VT,llK
+scenario_2_jpeg_pair,period_level,mismatch,Avancerad,åA Vancera
+scenario_2_jpeg_pair,period_points,mismatch,45,för .£
+scenario_2_jpeg_pair,period_subject,mismatch,Datavetenskap,r jag ...... Datavetenskap.....
+scenario_2_jpeg_pair,period_vt,mismatch,VT,HEJ
+scenario_2_jpeg_pair,period_year,mismatch,2026,yz
+scenario_2_jpeg_pair,personal_number,mismatch,20010314 7351,2001031 47351
+scenario_2_jpeg_pair,phone,mismatch,072 748 23 72,Telefonnummer: — T GICIONNUMM ÖII5 120 T S Me
+scenario_2_jpeg_pair,postcode,mismatch,Kantorsgatan 52 Uppsala 754 24,"..Kantorsgatan.52,. Uppsala 754.24....... Pactadrece"
+scenario_2_jpeg_pair,scholarship_amount,mismatch,12400,ER
+scenario_2_jpeg_pair,scholarship_end_yea,mismatch,2027,”AN /
+scenario_2_jpeg_pair,scholarship_name,mismatch,Dagmar och Philbert Humblas,TE SÅR SE srra br yp t RTT A ISYONAA A oå PL AAM LD Fa t I a ga vå La I I MA Jå LPR &
+scenario_2_jpeg_pair,scholarship_start_yea,mismatch,2025,JE ()
+scenario_2_jpeg_pair,scholarships,mismatch,Folke Hedbloms minne,TEM NHIETIIBIINND o 00599939000095009900500535009995993950090090049G0a00SLNVINISNNNSL HIP JINSS N NSIEOSESNINNSG400NYOHONIONEN0G Avgånosbetvg från gymnasieskolan i.. BOIWNÄS...........oosssovosssosnr deNO5/06 år 2020
+scenario_2_jpeg_pair,signing_date,mismatch,26/03-2026,DT)aftm
+scenario_2_jpeg_pair,source_file,mismatch,Exempelansökan.pdf,sample_1_page_1.jpg
+scenario_2_jpeg_pair,source_pages,match,"1,2","1,2"
+scenario_2_jpeg_pair,street,mismatch,Kantorsgatan 52 Uppsala 754 24,"..Kantorsgatan.52, Uppsala 754 24 — - [A R n"
+scenario_2_jpeg_pair,uu_joined_ht,mismatch,HT,N sec
+scenario_2_jpeg_pair,uu_joined_vt,mismatch,VT,nd
+scenario_2_jpeg_pair,uu_joined_year,mismatch,2023,Jp n O o
+scenario_3_jpeg_pair,account,missing_field,(6407) 794 187 072,
+scenario_3_jpeg_pair,bank,mismatch,Handelsbanken,I HAandelShamkOn se sss tdr
+scenario_3_jpeg_pair,birth_place,mismatch,"Lundby, Västerås",Ködelseort ocheförs. Sövle l g a
+scenario_3_jpeg_pair,credits_capped,missing_field,10,
+scenario_3_jpeg_pair,credits_high,missing_field,132.5,
+scenario_3_jpeg_pair,credits_high_level,missing_field,0,
+scenario_3_jpeg_pair,credits_total,missing_field,172.5,
+scenario_3_jpeg_pair,csn_remain,missing_field,80,
+scenario_3_jpeg_pair,email,mismatch,Hampus.Toft@gmail.com,. Hampus.Toft2gmalCoM. ..
+scenario_3_jpeg_pair,external_credits_capped,missing_field,0,
+scenario_3_jpeg_pair,external_credits_high,missing_field,0,
+scenario_3_jpeg_pair,external_credits_high_level,missing_field,0,
+scenario_3_jpeg_pair,external_credits_total,missing_field,0,
+scenario_3_jpeg_pair,extra_curricular,mismatch,Ämbete på Nation (Stip ledamot) Tidigare kår delaktig 1 år,"Andra meriter som är av värde för bedömningen (resor, föreningsengagemang och dylikt) JÄTDRETETBR! Na tonG tURe daM Ob sv ee E e r A R E S"
+scenario_3_jpeg_pair,field,mismatch,Kandidat Datavetenskap,E RT R
+scenario_3_jpeg_pair,gh_joined_ht,mismatch,HT,— E RR |
+scenario_3_jpeg_pair,gh_joined_vt,mismatch,VT,A.
+scenario_3_jpeg_pair,gh_joined_year,missing_field,2023,
+scenario_3_jpeg_pair,highschool,missing_field,Bollnäs,
+scenario_3_jpeg_pair,hs_day,missing_field,05,
+scenario_3_jpeg_pair,hs_month,missing_field,06,
+scenario_3_jpeg_pair,hs_year,missing_field,2020,
+scenario_3_jpeg_pair,is_citizen,missing_field,Ja,
+scenario_3_jpeg_pair,is_not_citizen,missing_field,Nej,
+scenario_3_jpeg_pair,name,mismatch,Hampus Toft,Ansökan na
+scenario_3_jpeg_pair,nation_membership,mismatch,Gästrike Hälsinge Nation Norrlands Nation,PR tnna lee n en a TO LICT: VI0 Uppsala UINIVETSItet: AeS SSA GastnkeHaJsmgeNatton NorrlandsNatton
+scenario_3_jpeg_pair,page_2_name,mismatch,Hampus Toft,l Hampus Toft
+scenario_3_jpeg_pair,page_count,match,2,2
+scenario_3_jpeg_pair,period_ht,missing_field,HT,
+scenario_3_jpeg_pair,period_is_ht,mismatch,HT,R
+scenario_3_jpeg_pair,period_is_vt,mismatch,VT,ChS E
+scenario_3_jpeg_pair,period_level,missing_field,Avancerad,
+scenario_3_jpeg_pair,period_points,missing_field,45,
+scenario_3_jpeg_pair,period_subject,mismatch,Datavetenskap,ARR — Jr RRR TR N SRR RR
+scenario_3_jpeg_pair,period_vt,missing_field,VT,
+scenario_3_jpeg_pair,period_year,mismatch,2026,me —Ä
+scenario_3_jpeg_pair,personal_number,missing_field,20010314 7351,
+scenario_3_jpeg_pair,phone,missing_field,072 748 23 72,
+scenario_3_jpeg_pair,postcode,mismatch,Kantorsgatan 52 Uppsala 754 24,Kaniorscatan 52 Unnsala 754 24 =
+scenario_3_jpeg_pair,scholarship_amount,missing_field,12400,
+scenario_3_jpeg_pair,scholarship_end_yea,mismatch,2027,T
+scenario_3_jpeg_pair,scholarship_name,mismatch,Dagmar och Philbert Humblas,Jag innehar följande stipendier:
+scenario_3_jpeg_pair,scholarship_start_yea,missing_field,2025,
+scenario_3_jpeg_pair,scholarships,mismatch,Folke Hedbloms minne,"FÖr HTXVT,ZS. ansöker jag om följande stipendium (i ullysningsordning och utan belopp): FoJkeHedeomsmlnne"
+scenario_3_jpeg_pair,signing_date,mismatch,26/03-2026,| FL SD R AN
+scenario_3_jpeg_pair,source_file,mismatch,Exempelansökan.pdf,sample_2_page_1.jpg
+scenario_3_jpeg_pair,source_pages,match,"1,2","1,2"
+scenario_3_jpeg_pair,street,mismatch,Kantorsgatan 52 Uppsala 754 24,Kantorsgatan 52 lUnnsala 754 24
+scenario_3_jpeg_pair,uu_joined_ht,mismatch,HT,AR
+scenario_3_jpeg_pair,uu_joined_vt,mismatch,VT,SÅR
+scenario_3_jpeg_pair,uu_joined_year,mismatch,2023,SE s RRR r N

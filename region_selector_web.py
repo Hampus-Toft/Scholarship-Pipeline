@@ -4,7 +4,7 @@ import cv2
 
 app = Flask(__name__)
 
-IMAGE_PATH = "input_images/temp_page_0.jpg"
+IMAGE_PATH = "input_images/temp_page_1.jpg"
 # IMAGE_PATH = "sample.jpg"
 
 @app.route("/")

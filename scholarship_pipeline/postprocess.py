@@ -128,3 +128,81 @@ def finalize_record(data, source_file, source_page=None):
         merged["source_page"] = source_page
 
     return merged
+
+
+def _split_flagged_fields(flagged_fields):
+    if not flagged_fields:
+        return []
+
+    return [part.strip() for part in flagged_fields.split(",") if part.strip()]
+
+
+def merge_page_records(page_records):
+    if not page_records:
+        return {}
+
+    ordered = sorted(page_records, key=lambda record: record.get("source_page", 0))
+    merged = {
+        "source_file": ordered[0].get("source_file", ""),
+        "source_pages": ",".join(str(record.get("source_page", "")) for record in ordered),
+        "page_count": len(ordered),
+    }
+
+    confidence_values = []
+    flagged_fields = []
+    flagged_seen = set()
+    has_review_flags = False
+
+    reserved_keys = {
+        "confidence_avg",
+        "needs_review",
+        "flagged_fields",
+        "source_file",
+        "source_page",
+        "source_pages",
+        "page_count",
+    }
+
+    for record in ordered:
+        page_number = record.get("source_page", "unknown")
+
+        confidence = record.get("confidence_avg")
+        if isinstance(confidence, (int, float)):
+            confidence_values.append(float(confidence))
+
+        if record.get("needs_review"):
+            has_review_flags = True
+
+        for field in _split_flagged_fields(record.get("flagged_fields", "")):
+            if field not in flagged_seen:
+                flagged_fields.append(field)
+                flagged_seen.add(field)
+
+        for key, value in record.items():
+            if key in reserved_keys:
+                continue
+
+            if value is None:
+                continue
+
+            value_str = str(value).strip()
+            if not value_str:
+                continue
+
+            existing = str(merged.get(key, "")).strip() if key in merged else ""
+            if not existing:
+                merged[key] = value
+                continue
+
+            if existing != value_str:
+                merged[f"page_{page_number}_{key}"] = value
+
+    if confidence_values:
+        merged["confidence_avg"] = round(sum(confidence_values) / len(confidence_values), 2)
+    else:
+        merged["confidence_avg"] = 0.0
+
+    merged["needs_review"] = has_review_flags
+    merged["flagged_fields"] = ", ".join(flagged_fields)
+
+    return merged

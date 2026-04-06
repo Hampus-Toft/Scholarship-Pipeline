@@ -1,0 +1,63 @@
+field                      , expected_value                                                                                     , notes
+source_file                , Exempelansökan.pdf                                                                                 , Input filename
+source_pages               , "1,2"                                                                                              , Merged page list
+page_count                 , 2                                                                                                  , Number of pages merged
+name                       , Hampus Toft                                                                                     , Merged name field
+personal_number            , 20010314 7351                                                                                    , Merged personal number
+birth_place                , "Lundby, Västerås"                                                                , Birth place
+is_citizen                 , Ja                                                                                                 , Citizenship checkbox
+is_not_citizen             , Nej                                                                                                , Non-citizenship checkbox
+period_is_ht               , HT                                                                                                 , Term HT indicator
+period_is_vt               , VT                                                                                                 , Term VT indicator
+scholarships               , "Folke Hedbloms minne"                             , Scholarships text
+highschool                 , Bollnäs                                                                                         , Highschool text
+hs_day                     , 05                                                                                                 , Highschool date day
+hs_month                   , 06                                                                                                 , Highschool date month
+hs_year                    , 2020                                                                                               , Highschool date year
+hs_alternatives            ,                                                                              , Alternative highschool path
+hsa_day                    ,                                                                                                  , Alternative date day
+hsa_month                  ,                                                                                                  , Alternative date month
+hsa_year                   ,                                                                                                , Alternative date year
+uu_joined_ht               , HT                                                                                                 , UU joined term HT
+uu_joined_vt               , VT                                                                                                 , UU joined term VT
+uu_joined_year             , 2023                                                                                               , UU joined year
+gh_joined_ht               , HT                                                                                                 , GH joined term HT
+gh_joined_vt               , VT                                                                                                 , GH joined term VT
+gh_joined_year             , 2023                                                                                               , GH joined year
+nation_membership          , "Gästrike Hälsinge Nation Norrlands Nation"                                                         , Nation membership
+other_periods              , , Other periods
+break_periods              ,                                                                                                , Break periods
+credits_total              , 172.5                                                                                                , Total credits
+credits_high               , 132.5                                                                                                , High-level credits
+credits_capped             , 10                                                                                                 , Capped credits
+credits_high_level         , 0                                                                                                  , high level credits
+external_credits_total     , 0                                                                                                  , External total credits
+external_credits_high      , 0                                                                                                  , External high-level credits
+external_credits_capped    , 0                                                                                                  , External capped credits
+external_credits_high_level, 0                                                                                                  , External high level credits
+field                      , Kandidat Datavetenskap                                                                                              , Field of studies
+period_ht                  , HT                                                                                                 , Page 2 period HT
+period_vt                  , VT                                                                                                 , Page 2 period VT
+period_year                , 2026                                                                                               , Page 2 period year
+scholarship_name           , Dagmar och Philbert Humblas                                                                                          , Scholarship name
+scholarship_start_day      ,                                                                                                  , Scholarship start day
+scholarship_start_mon      ,                                                                                                   , Scholarship start month
+scholarship_start_yea      , 2025                                                                                               , Scholarship start year
+scholarship_end_day        ,                                                                                                  , Scholarship end day
+scholarship_end_mon        ,                                                                                                   , Scholarship end month
+scholarship_end_yea        , 2027                                                                                               , Scholarship end year
+scholarship_amount         , 12400                                                                                               , Scholarship amount
+family_relation            , , Family relation text
+extra_curricular           , Ämbete på Nation (Stip ledamot) Tidigare kår delaktig 1 år , Extra curricular text
+csn_remain                 , 80                                                                                                 , Remaining CSN terms
+period_subject             , Datavetenskap                                                                                          , Period subject
+period_points              , 45                                                                                                 , Period points
+period_level               , Avancerad                                                                                           , Period level
+signing_date               , 26/03-2026                                                                                          , Signing date
+page_2_name                , Hampus Toft                                                                                      , Name captured on page 2
+bank                       , Handelsbanken                                                                                     , Bank
+account                    , (6407) 794 187 072                                                                                 , Account number
+street                     , Kantorsgatan 52 Uppsala 754 24                                                                                , Street
+postcode                   , Kantorsgatan 52 Uppsala 754 24                                                                                      , Postcode and city
+email                      , Hampus.Toft@gmail.com                                                                               , Email
+phone                      , 072 748 23 72                                                                                      , Phone

@@ -1,5 +1,6 @@
 import os
 import re
+import csv
 
 import pandas as pd
 from pdf2image import convert_from_path
@@ -30,3 +31,17 @@ def save_to_excel(data_list, output_file="output.xlsx"):
     df = pd.DataFrame(data_list)
     df.to_excel(output_file, index=False)
     print(f"[INFO] Saved to {output_file}")
+
+
+def save_to_csv(data_list, output_file="output.csv"):
+    df = pd.DataFrame(data_list)
+    df.to_csv(output_file, index=False, quoting=csv.QUOTE_MINIMAL)
+    print(f"[INFO] Saved to {output_file}")
+
+
+def save_output(data_list, output_file="output.xlsx"):
+    if output_file.lower().endswith(".csv"):
+        save_to_csv(data_list, output_file=output_file)
+        return
+
+    save_to_excel(data_list, output_file=output_file)

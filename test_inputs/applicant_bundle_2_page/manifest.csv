@@ -1,0 +1,12 @@
+bundle_id,document_group,category,pages,shared_attachment_group,required,notes
+applicant_bundle_2_page,application,scholarship_form,2,core,yes,Primary scholarship application
+applicant_bundle_2_page,application,declaration_form,2,core,yes,Self economic declaration
+applicant_bundle_2_page,application,watched_form,1,core,yes,Claiming second half of scholarship
+applicant_bundle_2_page,application,travel_scholarship_form,2,core,yes,Travel scholarship application
+applicant_bundle_2_page,application,travel_reason_form,1,travel_scholarship_form,yes,Reason for travel scholarship
+applicant_bundle_2_page,application,scholarship_gss_form,2,gss,yes,GSS scholarship application
+applicant_bundle_2_page,application,watched_scholarship_gss_form,1,gss,yes,GSS watched scholarship application
+applicant_bundle_2_page,attachment,university_grades,1,shared,yes,Standardized government attachment
+applicant_bundle_2_page,attachment,residency,1,shared,yes,Standardized government attachment
+applicant_bundle_2_page,attachment,self_economic_declaration,1,shared,yes,Shared attachment
+applicant_bundle_2_page,attachment,nation_membership,1,shared,yes,Shared attachment

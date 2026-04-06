@@ -1,0 +1,3 @@
+key,value,notes
+input_pdf_relpath,applications/scholarship_form/scholarship_form.pdf,Relative path from applicant_bundle_2_page
+expected_answers_relpath,expected/expected_answers.csv,Ground truth values for assertions
