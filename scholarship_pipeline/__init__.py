@@ -1,0 +1,1 @@
+"""Scholarship OCR pipeline package."""
