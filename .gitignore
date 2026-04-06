@@ -205,3 +205,17 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Uv
+uv.lock
+
+# Images
+temp_page_1.jpg
+input_images/temp_page_0.jpg
+
+# excel
+*.xlsx
+
+debug_processed_gray.jpg
+debug_processed_thresh.jpg
+debug_processed.jpg
